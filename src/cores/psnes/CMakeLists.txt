@@ -105,11 +105,11 @@ if (PLATFORM_VITA)
     #####################
     # PSP2 PLATORM
     #####################
-    set(TITLE_ID "PSNE00001" CACHE STRING "" FORCE)
+    set(TITLE_ID "SNES00001" CACHE STRING "" FORCE)
     list(APPEND SNES9X_LDFLAGS ScePower_stub)
 elseif (PLATFORM_PS4)
-    set(PS4_PKG_TITLE "pSNES - Portable Snes9x")
-    set(PS4_PKG_TITLE_ID "PSNE00001")
+    set(PS4_PKG_TITLE "SNES Station")
+    set(PS4_PKG_TITLE_ID "SNES00001")
     set(PS4_PKG_VERSION "${VERSION_MAJOR}.${VERSION_MINOR}")
 elseif (PLATFORM_SWITCH)
     #####################
